@@ -8,7 +8,7 @@
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
                                     
-                                    <h5>{{ $val->name_np }}</h5> <span class="label label-primary">VOTE</span>
+                                    <h5>{{ $val->name_np }}</h5> <span class="label label-primary vote-button"><i class="fa fa-arrow-circle-o-right"></i> VOTE</span>
                                     <div class="ibox-tools">
                                         <a class="collapse-link">
                                             <i class="fa fa-chevron-up"></i>
