@@ -153,14 +153,12 @@
                 <li>
                     <h2><span class="m-r-sm text-muted welcome-message">Welcome to Daayitwa Online Polling System.</span></h2>
                     <span id="status"></span>
-                    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
+                    
                 </li>
                 
                 <li>
-                    <a href="login.html">
-                        <i class="fa fa-sign-out"></i> Log out
-                    </a>
+                    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
                 </li>
                 
             </ul>
@@ -243,7 +241,7 @@
                     showMethod: 'slideDown',
                     timeOut: 4000
                 };
-                toastr.success('Online Polling System', 'Welcome to Daayitwa');
+                //toastr.success('Online Polling System', 'Welcome to Daayitwa');
 
             }, 1300);
             
