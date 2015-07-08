@@ -57,7 +57,7 @@
     // for FB.getLoginStatus().
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
-        toastr.success('Welcome to Daayitwa Online Polling', 'Thank you for logging in');
+        toastr.success('दायित्व ओन्लाइन मतदान कार्यक्रम मा तपाइलाई हार्दिक स्वागत छ |', 'लोग-इन गर्नु भएको मा धन्यबाद ');
       //testAPI();
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
@@ -152,7 +152,7 @@
             
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <h2><span class="m-r-sm text-muted welcome-message">Welcome to Daayitwa Online Polling System.</span></h2>
+                    <h2><span class="m-r-sm text-muted welcome-message">दायित्व ओन्लाइन मतदान कार्यक्रम मा तपाइलाई हार्दिक स्वागत छ |</span></h2>
                     <span id="status"></span>
                     
                 </li>

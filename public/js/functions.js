@@ -31,7 +31,7 @@ $(document).ready(function(){
             
       }else{
 
-            toastr.error('You need to be logged in through facebook in order to Vote', 'Not logged in');
+            toastr.error('यस मतदान कार्यक्रम मा सहभागी हुन कृपया फेसबूक बाट लोग-इन गर्नुहला ', 'लोग-इन छैन ');
       }
     });
     
