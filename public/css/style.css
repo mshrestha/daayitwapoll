@@ -3594,7 +3594,7 @@ code {
   border-image: none;
   border-style: solid solid none;
   border-width: 1px 0px;
-  min-height: 210px;
+  min-height: 255px;
 }
 .ibox-footer {
   color: inherit;

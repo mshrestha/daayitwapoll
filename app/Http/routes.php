@@ -17,6 +17,7 @@ Route::get('/', function () {
 Route::resource('/', 'IndexController');
 Route::resource('poll', 'PollController');
 Route::resource('profile', 'ProfileController');
+Route::resource('en', 'EnController');
 Route::get('profile', array('before' => 'old', 'uses' => 'ProfileController@show'));
 Route::resource('vote/{id}/{userid}', 'VoteController');
 
