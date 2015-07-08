@@ -36,8 +36,10 @@
                                             <small class="m-r"><a href="/profile/{{ $val->id }}"> Full Profile </a> </small>
                                         </h4>
                                         <p>{{ $val->detail_np }}</p>
+                                        <div class="fb-share-button" data-href="{{ URL::to('profile/' . $val->id) }}" data-layout="button_count"></div>
                                         </div>
                                     </div>
+                                
                                 </div>
 
                         </div>

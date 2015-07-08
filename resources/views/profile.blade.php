@@ -52,8 +52,10 @@
                                         </h4>
                                         <p>{{ $val->detail }}</p>
                                         
-                                        </div>
                                     </div>
+                                    <div class="fb-share-button" data-href="{{ URL::to('profile/' . $val->id) }}" data-layout="button_count"></div>
+                                    </div>
+                                
                                 </div>
                                 
 
