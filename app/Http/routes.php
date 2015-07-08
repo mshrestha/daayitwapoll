@@ -22,7 +22,7 @@ Route::get('poll', function(){
 Route::get('vote', function(){
 	return view('poll');
 });
-Route::resource('vote/{id}', 'VoteController');
+Route::resource('vote/{id}/{userid}', 'VoteController');
 
 Route::controllers([
     'auth' => 'Auth\AuthController',

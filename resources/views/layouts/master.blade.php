@@ -228,9 +228,13 @@
 
     <!-- ChartJS-->
     <script src="{{ URL::asset('js/plugins/chartJs/Chart.min.js') }}"></script>
-
+    
+    <!-- Custom JS Script -->
+    <script src="{{ URL::asset('js/functions.js') }}"></script>
+    
     <!-- Toastr -->
     <script src="{{ URL::asset('js/plugins/toastr/toastr.min.js') }}"></script>
+    
 
 
     <script>

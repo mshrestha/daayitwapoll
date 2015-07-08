@@ -14,14 +14,25 @@ class VoteController extends Controller
      *
      * @return Response
      */
-    public function index($id)
+    public function index($id, $userid)
     {
-    
-        if(DB::table('candidate')->where('id', $id)->increment('votes'))
+        $user = DB::table('vote')->where('fbuserid', $userid)->first();
+        if ($user) 
         {
-            echo "SUCCESS";
-        }else{
-            echo "FAILURE";   
+            echo "ALREADY VOTED";    
+        }
+        else
+        {
+    
+            if(DB::table('candidate')->where('id', $id)->increment('votes'))
+            {
+                DB::table('vote')->insert(array('candidate_id' => $id, 'fbuserid' => $userid));
+                
+                
+                echo "SUCCESS";
+            }else{
+                echo "FAILURE";   
+            }
         }
     }
 

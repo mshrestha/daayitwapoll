@@ -1376,6 +1376,9 @@ button.dim:active:before {
   height: 350px;
   overflow-y: scroll;
 }
+.vote-button{
+    cursor:pointer;
+}
 /* LIST GROUP */
 a.list-group-item.active,
 a.list-group-item.active:hover,
