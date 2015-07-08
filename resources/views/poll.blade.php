@@ -28,7 +28,7 @@
                                         
                                         <h4>{{ $val->organization }}
                                             <br/>
-                                            <small class="m-r"><a href="graph_flot.html"> Check the stock price! </a> </small>
+                                            <small class="m-r"><a href="/profile/{{ $val->id }}"> View full Profile </a> </small>
                                         </h4>
                                         </div>
                                     </div>

@@ -20,6 +20,7 @@ class PollController extends Controller
         
         $candidates = DB::select('select * from candidate where active = ?', [1]);
         
+        
         return view('poll', ['candidates' => $candidates]);
     }
 

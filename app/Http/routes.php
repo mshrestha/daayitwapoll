@@ -15,9 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('/', 'IndexController');
-Route::get('poll', function(){
-	return view('poll');
-});
+
+
+
+Route::resource('poll', 'PollController');
 
 Route::get('vote', function(){
 	return view('poll');
