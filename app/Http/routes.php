@@ -15,15 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('/', 'IndexController');
-
-
-
 Route::resource('poll', 'PollController');
-
-Route::get('vote', function(){
-	return view('poll');
-});
+Route::resource('profile', 'ProfileController');
+Route::get('profile', array('before' => 'old', 'uses' => 'ProfileController@show'));
 Route::resource('vote/{id}/{userid}', 'VoteController');
+
 
 Route::controllers([
     'auth' => 'Auth\AuthController',
