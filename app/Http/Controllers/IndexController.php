@@ -16,7 +16,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-         $candidates = DB::select('select * from candidate where active = ?', [1]);
+         $candidates = DB::select('select * from candidate where active = ? ORDER BY RAND()', [1]);
         
         return view('welcome', ['candidates' => $candidates]);  
         
