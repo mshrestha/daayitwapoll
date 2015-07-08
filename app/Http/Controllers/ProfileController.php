@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use DB;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -49,7 +49,9 @@ class ProfileController extends Controller
     public function show($id)
     {
         //
-        echo "PROFILE SHOW " . $id;
+        //echo "PROFILE SHOW " . $id;
+        $candidate = DB::select('select * from candidate where id = ?', [$id]);
+        return view('profile', ['candidate' => $candidate]);
     }
 
     /**

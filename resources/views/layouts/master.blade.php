@@ -146,8 +146,9 @@
         <div class="row border-bottom">
         <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
-            
-            <img src="img/logo.png" width="200px"/>
+            <a href="/" >
+            <img src="/img/logo.png" width="200px"/>
+            </a>
         </div>
             
             <ul class="nav navbar-top-links navbar-right">

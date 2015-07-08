@@ -3,8 +3,8 @@
 
 
 @section('content')
- @foreach($candidates as $key => $val)
-<div class="col-lg-4">
+    @foreach($candidate as $key => $val)
+<div class="col-lg-8">
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
                                     
@@ -27,18 +27,35 @@
 
                                         <div class="pull-right text-right">
 
-                                        <img src="{{ $val->photo }}" class="img-responsive img-circle" alt="" width="50px">
+                                        <img src="/{{ $val->photo }}" class="img-responsive img-circle" alt="" width="150px" >
                                         </div>
                                         
                                         <h4>{{ $val->organization_np }}
-                                            <br/>
                                             
-                                            <small class="m-r"><a href="/profile/{{ $val->id }}"> Full Profile </a> </small>
                                         </h4>
                                         <p>{{ $val->detail_np }}</p>
+                                        
+                                        </div>
+                                    </div>
+                                <div class="ibox-title">
+                                    
+                                    <h5>{{ $val->name }}</h5> 
+                                    
+                                </div>
+                                <div class="ibox-content">
+                                    <div>
+
+                                        
+                                        
+                                        <h4>{{ $val->organization }}
+                                            
+                                        </h4>
+                                        <p>{{ $val->detail }}</p>
+                                        
                                         </div>
                                     </div>
                                 </div>
+                                
 
                         </div>
     @endforeach
