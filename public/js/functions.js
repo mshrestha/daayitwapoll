@@ -11,12 +11,12 @@ $(document).ready(function(){
             });
              
             request.done(function( msg ) {
-                console.log(msg);
+                
               if(msg == 'SUCCESS'){
-                    toastr.success('Thank you for your vote.');      
+                    toastr.success('धन्यवाद | तपाइको मत गणती मा गईसकेको छ ');      
               }
               if (msg == 'ALREADY VOTED'){
-                    toastr.error('You have already voted for a candidate on this app.', 'Already Voted');   
+                    toastr.error('तपाइको मत पहिलेनै खसिसकेको छ | कृपया एक जनाले एउटा मात्रै मत खसाल्नु होला | धन्यवाद', 'एकजनालाई मात्रै मत ');   
               }
               if (msg == 'FAILURE')
               {
