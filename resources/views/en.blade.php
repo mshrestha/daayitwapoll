@@ -3,7 +3,6 @@
 
 
 @section('content')
- @foreach($candidates as $key => $val)
 <div class="col-lg-12">
     <div class="ibox float-e-margins">
         <div class="ibox-title">
@@ -21,6 +20,8 @@ Please vote your favorite entrepreneur based on their business description.
     </div>
     
 </div>
+ @foreach($candidates as $key => $val)
+
                         <div class="col-lg-4">
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
