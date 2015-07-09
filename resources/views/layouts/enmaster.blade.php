@@ -153,7 +153,7 @@
             
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <h2><span class="m-r-sm text-muted welcome-message">Welcome to Daayitwa Online Polling tool</span></h2>
+                    <h2><span class="m-r-sm text-muted welcome-message">Welcome to Naya Ghar Gulmi Innovation Challenge 2015 Poll</span></h2>
                     <span id="status"></span>
                     
                 </li>
@@ -232,7 +232,7 @@
     <script src="{{ URL::asset('js/plugins/chartJs/Chart.min.js') }}"></script>
     
     <!-- Custom JS Script -->
-    <script src="{{ URL::asset('js/functions.js') }}"></script>
+    <script src="{{ URL::asset('js/functions.en.js') }}"></script>
     
     <!-- Toastr -->
     <script src="{{ URL::asset('js/plugins/toastr/toastr.min.js') }}"></script>

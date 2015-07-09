@@ -153,7 +153,7 @@
             
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <h2><span class="m-r-sm text-muted welcome-message">दायित्व ओन्लाइन मतदान कार्यक्रम मा तपाइलाई हार्दिक स्वागत छ |</span></h2>
+                    <h2><span class="m-r-sm text-muted welcome-message">नयां घर- गुल्मी  नविनताको खोज  प्रतियोगिता २०१५ को मतदानमा हार्दिक स्वागत छ |</span></h2>
                     <span id="status"></span>
                     
                 </li>

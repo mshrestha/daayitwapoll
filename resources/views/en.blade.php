@@ -6,14 +6,13 @@
 <div class="col-lg-12">
     <div class="ibox float-e-margins">
         <div class="ibox-title">
-        <h5>Welcome to Naya Ghar Gulmi Innovation Challenge 2015 Poll </h5>
-            <br /><br /><p>
+        
 Naya Ghar and Integrated Rural Development Society (IRDS) launched Gulmi Innovation Challenge 2015 in April. 231 entrepreneurs from 39 VDCs of Gulmi participated in this district-wide competition. Based on their written application  Naya Ghar and IRDS have selected top 40 entrepreneurs in June. This poll has been organised to select top 20 entrepreneurs in the Innovation Challenge. Selected top 20 entrepreneurs will qualify for next round of selection process where top 10 will receive Rs 25,000 each. 
 
 <br /><br />
 Please vote your favorite entrepreneur based on their business description. 
 
-            </p>
+        
     
         </div>
         
