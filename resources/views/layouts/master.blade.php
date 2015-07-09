@@ -57,7 +57,7 @@
     // for FB.getLoginStatus().
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
-        toastr.success('दायित्व ओन्लाइन मतदान कार्यक्रम मा तपाइलाई हार्दिक स्वागत छ |', 'लोग-इन गर्नु भएको मा धन्यबाद ');
+        toastr.success('नयां घर- “गुल्मी  नविनताको खोज  प्रतियोगिता २०१५” को मतदानमा हार्दिक स्वागत छ |', 'लग-इन गर्नु भएको मा धन्यबाद ');
       //testAPI();
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
