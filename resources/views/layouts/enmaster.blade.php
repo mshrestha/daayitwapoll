@@ -148,6 +148,7 @@
         <div class="navbar-header">
             <a href="/" >
             <img src="/img/logo.png" width="200px"/>
+            <img src="/img/nayaghar.png" width="140px" style="margin-top:-5px;"/>
             </a>
         </div>
             
