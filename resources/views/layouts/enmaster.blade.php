@@ -55,6 +55,12 @@
     // app know the current login status of the person.
     // Full docs on the response object can be found in the documentation
     // for FB.getLoginStatus().
+      if (response.authResponse) {
+        console.log(response.authResponse);
+    }
+    else {
+        console.log(response);
+    }
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
         toastr.success('Welcome to Daayitwa Online Polling', 'Thank you for logging in');
