@@ -48,6 +48,7 @@
     
     <script>
   // This is called with the results from from FB.getLoginStatus().
+        var FBuser = '';
   function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
@@ -58,6 +59,7 @@
       if (response.authResponse) {
           console.log('LOCALE HERE IS');
         console.log(response.authResponse.get('user').get('locale'));
+          FBuser = response;
     }
     else {
         console.log(response);
