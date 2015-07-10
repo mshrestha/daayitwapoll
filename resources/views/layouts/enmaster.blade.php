@@ -56,7 +56,8 @@
     // Full docs on the response object can be found in the documentation
     // for FB.getLoginStatus().
       if (response.authResponse) {
-        console.log(response.authResponse);
+          console.log('LOCALE HERE IS');
+        console.log(response.authResponse.get('user').get('locale'));
     }
     else {
         console.log(response);
