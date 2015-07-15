@@ -32,6 +32,7 @@ $(document).ready(function(){
       }else{
 
             toastr.error('Please log in through facebook login in order to vote on this site.', 'You\'re not logged in');
+          FB.login();
       }
     });
     
