@@ -54,7 +54,7 @@
                                         <i class="fa fa-arrow-circle-o-right"></i> 
                                         VOTE
                                         </button>
-                                        <div class="fb-share-button" data-href="{{ URL::to('profile/' . $val->id) }}" data-layout="button_count"></div>
+                                        
                                         </div>
                                     </div>
                                 
